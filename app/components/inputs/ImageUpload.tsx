@@ -27,7 +27,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
   return (
     <CldUploadWidget 
       onUpload={handleUpload} 
-      uploadPreset={uploadPreset}
+      uploadPreset="iiij6brs"
       options={{
         maxFiles: 1
       }}
@@ -66,7 +66,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
                   fill 
                   style={{ objectFit: 'cover' }} 
                   src={value} 
-                  alt="House" 
+                  alt="Upload" 
                 />
               </div>
             )}
